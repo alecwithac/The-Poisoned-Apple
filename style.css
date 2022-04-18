@@ -1,0 +1,39 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.nav-bar img {
+    height: 300px;
+    width: 400px;
+    margin-left: 10px;
+}
+
+
+.nav-bar h1 {
+    color: darkred;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 42px;
+    margin-left: 100px;
+    padding: 20px 0px 20px 100px;
+}
+
+.links {
+    display: flex;
+    gap: 60px;
+    margin-right: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(95, 0, 0);
+}
+
