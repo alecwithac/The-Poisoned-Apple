@@ -75,19 +75,23 @@ a {
     display: flex;
     justify-content: center;
     font-size: 42px;
-    font-weight: normal;
+    font-weight: lighter;
     color: rgb(95, 0, 0);
 }
 
 .menu-content {
     display: flex; 
     justify-content: space-evenly;
-    gap: 60px;
+  
 }
 
 .menu-content img {
     height: 150px;
     width: 150px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    
 }
 
 .menu-content h4 {
@@ -109,30 +113,116 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    align-items: center; 
+    gap: 20px;
 }
 
 .mead {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
 }
 
 .beer {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.container-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.container-three h3 {
+    font-size: 42px;
+    font-weight: lighter;
+    color: rgb(95, 0, 0);
+    text-align: center;
+}
+
+
+.container-three h4 {
+    font-size: 32px;
+    font-weight: lighter;
+    color: rgb(95, 0, 0);
+    text-align: center;
+}
+
+.container-three img {
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+}
+
+.merchandise {
+    display: flex;
+    justify-content: space-evenly; 
 }
 
 
 
 
 
+h6 {
+    color: rgb(95, 0, 0);
+    font-size: 42px;
+    font-weight: lighter;
+    text-align: center;
+ }
 
+.bottom-group {
+    display: flex;
+    justify-content: space-evenly;
+}
 
+.bottom-group p{
+    font-size: 24px;
+    color: rgb(95, 0, 0);
+    font-weight: lighter;
+    text-decoration: underline;
 
+}
 
+.bottom-group img {
+    height: 50px;
+    width: 50px;
+}
 
+.social-media {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin-right: 110px;
+}
 
+.bottom-group ul {
+    font-size: 22px;
+    color: rgb(95, 0, 0);
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    margin-bottom: 50px;
+}
+
+.hours {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+}
 
 
 .footer {
