@@ -1,6 +1,7 @@
 .main-container {
     display: flex;
     flex-direction: column;
+    font-family: 'Dynalight', cursive;
 }
 
 .nav-bar {
@@ -12,18 +13,16 @@
 }
 
 .nav-bar img {
-    height: 300px;
-    width: 400px;
-    margin-left: 10px;
+    height: 450px;
+    width: 500px;
 }
 
 
 .nav-bar h1 {
     color: darkred;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 42px;
     margin-left: 100px;
-    padding: 20px 0px 20px 100px;
+    padding: 20px 0px 0px 100px;
 }
 
 .links {
@@ -35,5 +34,111 @@
 a {
     text-decoration: none;
     color: rgb(95, 0, 0);
+    font-size: 32px;
 }
 
+.container-one {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(133, 127, 127);
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.hero h2 {
+    color: rgb(95, 0, 0);
+    font-size: 50px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.hero p {
+    color: rgb(95, 0, 0);
+    font-size: 30px;
+    text-align: center;
+}
+
+.container-mid {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+
+.container-mid h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 42px;
+    font-weight: normal;
+    color: rgb(95, 0, 0);
+}
+
+.menu-content {
+    display: flex; 
+    justify-content: space-evenly;
+    gap: 60px;
+}
+
+.menu-content img {
+    height: 150px;
+    width: 150px;
+}
+
+.menu-content h4 {
+    font-size: 32px;
+    text-align: center;
+    color: rgb(95, 0, 0);
+    font-weight: lighter;
+}
+
+.menu-content p {
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+    opacity: 0.7;
+    text-align: center;
+}
+
+.cider {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.mead {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.beer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    text-align: center;
+    background-color: rgb(49, 2, 2);
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+}
