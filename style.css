@@ -13,8 +13,8 @@
 }
 
 .nav-bar img {
-    height: 450px;
-    width: 500px;
+    height: 550px;
+    width: 600px;
 }
 
 
@@ -38,31 +38,34 @@ a {
 }
 
 .container-one {
+    position: relative;
     display: flex;
     flex-direction: column;
-    background-color: rgb(133, 127, 127);
-    margin-left: 100px;
-    margin-right: 100px;
+    background-image:linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url(https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-6/241535476_562680908487896_5615564163115571984_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=a26aad&_nc_ohc=DlGRtFFaVxUAX8nCCf4&_nc_ht=scontent-sjc3-1.xx&oh=00_AT_LrKIrErPyMpexqtscxIYZS54eJNvLfWfWx0ShPS7ONQ&oe=6264038F);
+    background-size: cover;
+    height: 80vh;
 }
 
+ 
 .hero {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
 }
 
 .hero h2 {
-    color: rgb(95, 0, 0);
-    font-size: 50px;
+    color: rgb(58, 1, 1);
+    font-size: 60px;
     font-weight: lighter;
     text-align: center;
 }
 
 .hero p {
-    color: rgb(95, 0, 0);
-    font-size: 30px;
+    color: rgb(58, 1, 1);
+    font-size: 40px;
     text-align: center;
+    font-weight: lighter;
+
 }
 
 .container-mid {
@@ -74,7 +77,7 @@ a {
 .container-mid h3 {
     display: flex;
     justify-content: center;
-    font-size: 42px;
+    font-size: 80px;
     font-weight: lighter;
     color: rgb(95, 0, 0);
 }
@@ -95,14 +98,14 @@ a {
 }
 
 .menu-content h4 {
-    font-size: 32px;
+    font-size: 50px;
     text-align: center;
     color: rgb(95, 0, 0);
     font-weight: lighter;
 }
 
 .menu-content p {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: lighter;
     color: rgb(0, 0, 0);
     opacity: 0.7;
@@ -141,7 +144,7 @@ a {
 }
 
 .container-three h3 {
-    font-size: 42px;
+    font-size: 60px;
     font-weight: lighter;
     color: rgb(95, 0, 0);
     text-align: center;
@@ -149,7 +152,7 @@ a {
 
 
 .container-three h4 {
-    font-size: 32px;
+    font-size: 40px;
     font-weight: lighter;
     color: rgb(95, 0, 0);
     text-align: center;
@@ -174,7 +177,7 @@ a {
 
 h6 {
     color: rgb(95, 0, 0);
-    font-size: 42px;
+    font-size: 52px;
     font-weight: lighter;
     text-align: center;
  }
@@ -182,6 +185,7 @@ h6 {
 .bottom-group {
     display: flex;
     justify-content: space-evenly;
+    background-color: rgb(104, 104, 104);
 }
 
 .bottom-group p{
